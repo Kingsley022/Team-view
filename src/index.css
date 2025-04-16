@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+
+@theme {
+    --font-acme: "Acme", "sans-serif";
+    --primary-green: "#3ca210";
+    --primary-gray: "#80808027";
+}  
