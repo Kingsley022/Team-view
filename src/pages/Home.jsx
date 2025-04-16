@@ -1,7 +1,7 @@
 import React, { useContext, useEffect } from 'react'
 import Navbar from '../components/Navbar'
 import Members from '../components/Members'
-import { useQuery } from '@tanstack/react-query'; // Import from React Query, not Chakra
+import { useQuery } from '@tanstack/react-query';
 import { AppContext } from '../App';
 import LoadingSkeleton from '../components/LoadingSkeleton';
 
