@@ -9,7 +9,7 @@ const Home = () => {
 
   const {members, setMembers} = useContext(AppContext);
 
-  // Returns an array of random users
+  // Returns array of random users
   const { data: users, isLoading, error, refetch, isSuccess } = useQuery({
     queryKey: ['randomUser'],
     queryFn: async () => {

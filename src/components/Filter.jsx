@@ -48,7 +48,7 @@ const Filter = () => {
           setSelectedFilter("Filter");
           setMembers(allMembersRef.current);
         }}>
-          Reset Filter
+          Clear Filter
         </MenuItem>
       </MenuList>
     </Menu>
