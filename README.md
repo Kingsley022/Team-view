@@ -22,6 +22,6 @@ Simple Team Showcase web component that displays team member information in an i
 - Run `npm install` (Installs dev dependencies)
 - Run `npm run dev` (Starts development server)
 
-<!-- Links -->
+<!-- QUick Links -->
 - https://team-view.vercel.app/ (Live demo)
 - https://github.com/Kingsley022/Team-view (Code)
