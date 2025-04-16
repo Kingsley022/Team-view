@@ -24,7 +24,13 @@ const Filter = () => {
             member.employment.title.toLowerCase().includes(term.toLowerCase())
         );
 
-        setMembers(filtered);
+        // If filtered results are empty, returns all members
+        if (filtered.length === 0) {
+            setMembers(allMembersRef.current);
+            alert("No members found with this filter. Showing all members instead.");
+        } else {
+            setMembers(filtered);
+        }
     };
 
   return (
@@ -40,7 +46,7 @@ const Filter = () => {
         <MenuItem onClick={() => handleFilter("planner")}>Planners</MenuItem>
         <MenuItem onClick={() => {
           setSelectedFilter("Filter");
-          setMembers(allMembersRef.current); // Reset to all
+          setMembers(allMembersRef.current);
         }}>
           Reset Filter
         </MenuItem>
