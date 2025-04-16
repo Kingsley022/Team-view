@@ -1,4 +1,3 @@
-// Members.jsx
 import React, { useContext, useState } from 'react'
 import Member from './Member'
 import { AppContext } from '../App';
